@@ -1,0 +1,21 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Word temporary files
+~$*.docx
+
+# Ignore PDF and Word reports (if you don’t want them in the repo)
+*.pdf
+*.docx
+
+# Ignore model files if they’re large or private
+saved model/
+
+# Ignore Python virtual environments (if any)
+venv/
+env/
+*.pyc
+__pycache__/
