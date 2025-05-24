@@ -15,17 +15,22 @@ This Streamlit app predicts the likelihood of heart disease using a machine lear
 
 ## 🚀 How to Run Locally
 
-1️⃣ Clone the repository:
-```bash
 # 1️⃣ Clone the repository
+```bash
 git clone https://github.com/zooviee/heart-disease-predictor.git
 cd heart-disease-predictor
+```
+
 
 # 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 3️⃣ Run the Streamlit app
+```bash
 streamlit run heart_disease.py
+```
 
 ## 🌐 Live App (Streamlit Cloud)
 you can access the app at:
