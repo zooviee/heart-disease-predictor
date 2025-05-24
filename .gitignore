@@ -11,9 +11,6 @@
 *.pdf
 *.docx
 
-# Ignore model files if they’re large or private
-saved model/
-
 # Ignore Python virtual environments (if any)
 venv/
 env/
