@@ -3,7 +3,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved model
-heart_disease_model = pickle.load(open('/Users/oluwaseyiakinsanya/Desktop/Predictive_Analytics/heart-disease-predictor-xm/saved model/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('saved model/heart_disease_model.sav', 'rb'))
+
 
 # page title
 st.title('Heart Disease Prediction using ML')
